@@ -1,15 +1,13 @@
 <script setup>
-    import AppLayout from '../layouts/AppLayout.vue';
+    import { ref } from 'vue'
+    import AppLayout from '@/layouts/AppLayout.vue';
     import Hero from '@/components/Hero.vue';
-    import GnaBadge from '../components/GnaBadge.vue';
+    import GnaBadge from '@/components/GnaBadge.vue';
+    import Select from '../components/Select.vue'
     import image1 from '../../images/image-1.jpg';
     import image2 from '../../images/image-2.jpg';
 
-    defineProps({
-        greeting: {
-            type: String
-        }
-    })
+    const selectedFilter = ref(null)
 </script>
 
 <template>
@@ -35,6 +33,26 @@
                     <p class="text-justify leading-relaxed">
                         Pellentesque hendrerit sit amet mauris vel dapibus. In felis diam, ornare vel iaculis et, egestas sit amet dolor. Nulla nec cursus dui. Nulla vulputate dolor et nunc feugiat tempus. Nullam bibendum et dolor quis ornare. Nam ac ante ac felis molestie dictum et et risus. Quisque sagittis dignissim accumsan. Aliquam mattis volutpat condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vel sem dolor. Fusce et massa feugiat, lacinia est sit amet, consectetur orci.
                     </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="sticky top-[72px] z-40 bg-secondary py-8 shadow-md md:top-20">
+            <div class="container mx-auto px-6">
+                <div class="flex items-center gap-6">
+                    <span class="text-2xl">Filtrar per</span>
+                    <div class="w-full max-w-xs">
+                        <Select
+                            v-model="selectedFilter"
+                            :options="[
+                                { id: 1, name: 'Item 1' },
+                                { id: 2, name: 'Item 2' },
+                                { id: 3, name: 'Item 3' }
+                            ]"
+                            placeholder="Seleccionar"
+                        />
+                    </div>
                 </div>
             </div>
         </section>

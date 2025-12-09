@@ -25,7 +25,7 @@
                     </p>
                 </div>
 
-                <div class="mx-auto max-w-5xl space-y-6 text-gray-700">
+                <div class="mx-auto max-w-5xl space-y-6">
                     <p class="text-justify leading-relaxed">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, velit id viverra fermentum, mauris odio maximus augue, ac pretium diam nunc non lacus. Suspendisse mattis pellentesque velit, a vestibulum felis condimentum et. Aenean dapibus ante vitae dolor egestas aliquam. Ut maximus feugiat lacus. Vestibulum maximus, neque vitae mattis facilisis, nisl turpis sollicitudin orci, at mollis urna mi sit amet nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ornare pellentesque est tristique placerat. Suspendisse velit elit, commodo sit amet libero at, mollis placerat massa. Nunc elementum vulputate mauris vitae congue. Nunc vitae mi ligula. Etiam viverra viverra ante, vel dictum nisl condimentum vitae.
                     </p>

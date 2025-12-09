@@ -1,6 +1,9 @@
 <script setup>
     import AppLayout from '../layouts/AppLayout.vue';
     import Hero from '@/components/Hero.vue';
+    import GnaBadge from '../components/GnaBadge.vue';
+    import image1 from '../../images/image-1.jpg';
+    import image2 from '../../images/image-2.jpg';
 
     defineProps({
         greeting: {
@@ -14,7 +17,7 @@
         <Hero />
 
         <!-- Intro Section -->
-        <section class="bg-gray-50 py-16">
+        <section class="py-16">
             <div class="container mx-auto px-6">
                 <div class="mb-12 text-center">
                     <h2 class="text-3xl md:text-4xl lg:text-5xl">
@@ -32,6 +35,70 @@
                     <p class="text-justify leading-relaxed">
                         Pellentesque hendrerit sit amet mauris vel dapibus. In felis diam, ornare vel iaculis et, egestas sit amet dolor. Nulla nec cursus dui. Nulla vulputate dolor et nunc feugiat tempus. Nullam bibendum et dolor quis ornare. Nam ac ante ac felis molestie dictum et et risus. Quisque sagittis dignissim accumsan. Aliquam mattis volutpat condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vel sem dolor. Fusce et massa feugiat, lacinia est sit amet, consectetur orci.
                     </p>
+                </div>
+            </div>
+        </section>
+
+         <!-- Articles Section -->
+         <section class="bg-white py-16">
+            <div class="container mx-auto px-6">
+                <div class="space-y-16">
+                    <!-- Left -->
+                    <article class="grid gap-8 md:grid-cols-2 md:items-center">
+                        <div class="flex justify-start">
+                            <img
+                                :src="image2"
+                                alt="Tecnología"
+                                class="aspect-4/3 h-auto w-full max-w-md rounded-[25px] object-cover"
+                            >
+                        </div>
+                        <div class="space-y-4">
+                            <div>
+                                <GnaBadge variant="primary">
+                                    Tecnología
+                                </GnaBadge>
+                            </div>
+                            <h3 class="text-2xl font-bold md:text-3xl">
+                                Lorem ipsum
+                            </h3>
+                            <p class="leading-relaxed">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam  rhoncus, velit id viverra fermentum, mauris odio maximus augue, ac  pretium diam nunc non
+                            </p>
+                            <a href="#" class="inline-block text-primary underline transition-colors duration-200 hover:text-primary/75">
+                                Més informació
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Right -->
+                    <article class="grid gap-8 md:grid-cols-2 md:items-center">
+                        <div class="space-y-4 md:order-1">
+                            <div class="flex flex-wrap gap-2">
+                                <GnaBadge variant="primary">
+                                    Màrqueting
+                                </GnaBadge>
+                                <GnaBadge variant="primary">
+                                    Tecnología
+                                </GnaBadge>
+                            </div>
+                            <h3 class="text-2xl font-bold md:text-3xl">
+                                Lorem ipsum
+                            </h3>
+                            <p class="leading-relaxed">
+                                Pellentesque hendrerit sit amet mauris vel dapibus. In felis diam, ornare vel iaculis et, egestas sit amet dolor. Nulla nec cursus dui. Nulla vulputate dolor et nunc feugiat tempus. Nullam bibendum et dolor quis ornare. Nam ac ante ac felis molestie dictum et et risus. Quisque sagittis dignissim accumsan. Aliquam mattis volutpat condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vel sem dolor. Fusce et massa feugiat, lacinia est sit amet, consectetur orci.Pellentesque hendrerit sit amet mauris vel dapibus. In felis diam, ornare vel iaculis et, egestas sit amet dolor. Nulla nec cursus dui. Nulla vulputate dolor et nunc feugiat tempus. Nullam bibendum et dolor quis ornare. Nam ac ante ac felis molestie dictum et et risus. Quisque sagittis dignissim accumsan. Aliquam mattis volutpat condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vel sem dolor. Fusce et massa feugiat, lacinia est sit amet, consectetur orci.
+                            </p>
+                            <a href="#" class="inline-block text-primary underline transition-colors duration-200 hover:text-primary/75">
+                                Més informació
+                            </a>
+                        </div>
+                        <div class="flex justify-start md:order-2 md:justify-end">
+                            <img
+                                :src="image1"
+                                alt="Màrqueting y Tecnología"
+                                class="aspect-4/3 h-auto w-full max-w-md rounded-[25px] object-cover"
+                            >
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>

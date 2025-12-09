@@ -6,6 +6,30 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-gna: 'Open Sans', sans-serif;
+    --default-font-family: var(--font-gna);
+
+    /* App colors */
+    --color-primary: #e00069;
+    --color-secondary: #f1d0d6;
+}
+
+@layer base {
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+             url('../fonts/OpenSans-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+             url('../fonts/OpenSans-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
 }

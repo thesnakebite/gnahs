@@ -15,10 +15,12 @@
         <div class="absolute inset-0 bg-black/20"></div>
 
         <!-- Hero Content -->
-        <div class="relative z-10 flex h-full items-end justify-center px-6 pb-12 sm:pb-16 md:px-8 md:pb-20 lg:px-12 lg:pb-[116px]">
-            <h1 class="text-center text-4xl font-bold tracking-wider text-white sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
-                GNA HOTEL SOLUTIONS
-            </h1>
+        <div class="relative z-10 flex h-full items-end justify-center">
+            <div class="mx-auto max-w-[1128px] px-4 pb-12 sm:px-6 sm:pb-16 md:pb-20 lg:pb-[116px] xxl:px-0">
+                <h1 class="text-center text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl xxl:text-8xl">
+                    GNA HOTEL SOLUTIONS
+                </h1>
+            </div>
         </div>
     </section>
 </template>

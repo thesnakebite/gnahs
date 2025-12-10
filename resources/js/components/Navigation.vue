@@ -38,7 +38,7 @@
     >
         <div
             :class="[
-                'container mx-auto px-6 transition-all duration-300',
+                'mx-auto max-w-[1340px] px-4 sm:px-6 xxl:px-0 transition-all duration-300',
                 isScrolled ? 'py-4' : 'py-12'
             ]"
         >

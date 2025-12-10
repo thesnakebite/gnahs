@@ -16,7 +16,7 @@
 
         <!-- Intro Section -->
         <section class="py-16">
-            <div class="container mx-auto px-6">
+            <div class="mx-auto max-w-[1180px] px-4 sm:px-6 xxl:px-0">
                 <div class="mb-12 text-center">
                     <h2 class="text-3xl md:text-4xl lg:text-5xl">
                         GNA Hotel Solutions:
@@ -26,12 +26,12 @@
                     </p>
                 </div>
 
-                <div class="mx-auto max-w-5xl space-y-6">
+                <div class="mx-auto space-y-6">
                     <p class="text-justify leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, velit id viverra fermentum, mauris odio maximus augue, ac pretium diam nunc non lacus. Suspendisse mattis pellentesque velit, a vestibulum felis condimentum et. Aenean dapibus ante vitae dolor egestas aliquam. Ut maximus feugiat lacus. Vestibulum maximus, neque vitae mattis facilisis, nisl turpis sollicitudin orci, at mollis urna mi sit amet nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ornare pellentesque est tristique placerat. Suspendisse velit elit, commodo sit amet libero at, mollis placerat massa. Nunc elementum vulputate mauris vitae congue. Nunc vitae mi ligula. Etiam viverra viverra ante, vel dictum nisl condimentum vitae.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam  rhoncus, velit id viverra fermentum, mauris odio maximus augue, ac  pretium diam nunc non lacus. Suspendisse mattis pellentesque velit, a  vestibulum felis condimentum et. Aenean dapibus ante vitae dolor egestas aliquam. Ut maximus feugiat laoreet. Vestibulum maximus, neque vitae  mattis facilisis, nisi turpis sollicitudin orci, at mollis urna mi sit  amet nulla. Interdum et malesuada fames ac ante ipsum primis in  faucibus. Maecenas ornare pellentesque est tristique placerat.  Suspendisse velit elit, commodo sit amet libero at, mollis placerat  massa. Nunc elementum vulputate mauris vitae congue. Nunc vitae mi  ligula. Etiam viverra viverra ante, vel dictum nisl condimentum vitae.
                     </p>
                     <p class="text-justify leading-relaxed">
-                        Pellentesque hendrerit sit amet mauris vel dapibus. In felis diam, ornare vel iaculis et, egestas sit amet dolor. Nulla nec cursus dui. Nulla vulputate dolor et nunc feugiat tempus. Nullam bibendum et dolor quis ornare. Nam ac ante ac felis molestie dictum et et risus. Quisque sagittis dignissim accumsan. Aliquam mattis volutpat condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vel sem dolor. Fusce et massa feugiat, lacinia est sit amet, consectetur orci.
+                        Pellentesque hendrerit sit amet mauris vel dapibus. In felis diam,  ornare vel iaculis et, egestas sit amet dolor. Nulla nec cursus dui.  Nulla vulputate dolor et nunc feugiat tempus. Nullam bibendum et dolor  quis ornare. Nam ac ante ac felis molestie dictum et et risus. Quisque  sagittis dignissim accumsan. Aliquam mattis volutpat condimentum.  Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia  curae; Integer vel sem dolor. Fusce et massa feugiat, lacinia est sit  amet, consectetur orci.
                     </p>
                 </div>
             </div>
@@ -39,9 +39,9 @@
 
         <!-- Filter Section -->
         <section class="sticky top-[72px] z-40 bg-secondary py-8 shadow-md md:top-20">
-            <div class="container mx-auto px-6">
-                <div class="flex items-center gap-6">
-                    <span class="text-2xl">Filtrar per</span>
+            <div class="mx-auto max-w-[1180px] px-4 sm:px-6 xxl:px-0">
+                <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-6">
+                    <span class="text-base sm:text-lg md:text-2xl">Filtrar per</span>
                     <div class="w-full max-w-xs">
                         <Select
                             v-model="selectedFilter"
@@ -59,10 +59,10 @@
 
          <!-- Articles Section -->
          <section class="bg-white py-16">
-            <div class="container mx-auto px-6">
+            <div class="mx-auto max-w-[1180px] px-4 sm:px-6 xxl:px-0">
                 <div class="space-y-16">
                     <!-- Left -->
-                    <article class="grid gap-8 md:grid-cols-2 md:items-center">
+                    <article class="grid lg:grid-cols-[auto_1fr] items-center gap-8">
                         <div class="flex justify-start">
                             <img
                                 :src="image2"
@@ -89,7 +89,7 @@
                     </article>
 
                     <!-- Right -->
-                    <article class="grid gap-8 md:grid-cols-2 md:items-center">
+                    <article class="grid lg:grid-cols-[1fr_auto] items-center gap-8">
                         <div class="space-y-4 md:order-1">
                             <div class="flex flex-wrap gap-2">
                                 <GnaBadge variant="primary">
@@ -103,13 +103,13 @@
                                 Lorem ipsum
                             </h3>
                             <p class="leading-relaxed">
-                                Pellentesque hendrerit sit amet mauris vel dapibus. In felis diam, ornare vel iaculis et, egestas sit amet dolor. Nulla nec cursus dui. Nulla vulputate dolor et nunc feugiat tempus. Nullam bibendum et dolor quis ornare. Nam ac ante ac felis molestie dictum et et risus. Quisque sagittis dignissim accumsan. Aliquam mattis volutpat condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vel sem dolor. Fusce et massa feugiat, lacinia est sit amet, consectetur orci.Pellentesque hendrerit sit amet mauris vel dapibus. In felis diam, ornare vel iaculis et, egestas sit amet dolor. Nulla nec cursus dui. Nulla vulputate dolor et nunc feugiat tempus. Nullam bibendum et dolor quis ornare. Nam ac ante ac felis molestie dictum et et risus. Quisque sagittis dignissim accumsan. Aliquam mattis volutpat condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vel sem dolor. Fusce et massa feugiat, lacinia est sit amet, consectetur orci.
+                                Pellentesque hendrerit sit amet mauris vel dapibus. In felis diam,  ornare vel iaculis et, egestas sit amet dolor. Nulla nec cursus dui.  Nulla vulputate dolor et nunc feugiat tempus. Nullam bibendum et dolor  quis ornare. Nam ac ante ac felis molestie dictum et et risus. Quisque  sagittis dignissim accumsan. Aliquam mattis volutpat condimentum.  Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia  curae; Integer vel sem dolor. Fusce et massa feugiat, lacinia est sit  amet, consectetur orci.Pellentesque hendrerit sit amet mauris vel dapibus. In felis diam,  ornare vel iaculis et, egestas sit amet dolor. Nulla nec cursus dui.  Nulla vulputate dolor et nunc feugiat tempus. Nullam bibendum et dolor  quis ornare. Nam ac ante ac felis molestie dictum et et risus. Quisque  sagittis dignissim accumsan. Aliquam mattis volutpat condimentum.  Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia  curae; Integer vel sem dolor. Fusce et massa feugiat, lacinia est sit  amet, consectetur orci.
                             </p>
                             <a href="#" class="inline-block text-primary underline transition-colors duration-200 hover:text-primary/75">
                                 Més informació
                             </a>
                         </div>
-                        <div class="flex justify-start md:order-2 md:justify-end">
+                        <div class="flex justify-start md:order-2 lg:justify-end">
                             <img
                                 :src="image1"
                                 alt="Màrqueting y Tecnología"

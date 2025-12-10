@@ -6,6 +6,9 @@
 @source '../**/*.js';
 
 @theme {
+    /* Breakpoint custom Figma desing */
+    --breakpoint-xxl: 90rem; /* 1440px / 16 = 90rem */
+
     --font-gna: 'Open Sans', sans-serif;
     --default-font-family: var(--font-gna);
 

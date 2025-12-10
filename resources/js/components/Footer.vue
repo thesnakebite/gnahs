@@ -5,7 +5,7 @@
 
 <template>
     <footer class="bg-secondary py-12">
-        <div class="container mx-auto px-6">
+        <div class="mx-auto max-w-[1312px] px-6 sm:px-8 xxl:px-0">
             <div class="grid grid-cols-1 gap-8 lg:grid-cols-4">
                 <!-- Logo -->
                 <div class="lg:col-span-2">

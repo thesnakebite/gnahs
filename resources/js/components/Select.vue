@@ -38,10 +38,10 @@
         @update:model-value="updateSelected"
     >
         <div class="relative">
-            <ListboxButton class="relative w-full cursor-pointer rounded-full border border-gray-300 bg-white py-2.5 pr-10 pl-6 text-left text-xl text-black transition-all duration-200 hover:border-gray-400 focus:border-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-200">
+            <ListboxButton class="relative w-full cursor-pointer rounded-full border border-gray-300 bg-white py-2 pr-10 pl-4 text-left text-base text-black transition-all duration-200 hover:border-gray-400 focus:border-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-200 sm:py-2.5 sm:pl-6 sm:text-xl">
                 <span class="block truncate">{{ selected.name }}</span>
-                <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-4">
-                    <svg class="size-14 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 sm:pr-4">
+                    <svg class="size-10 text-gray-500 sm:size-14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                         <polyline points="6 9 12 15 18 9"></polyline>
                     </svg>
                 </span>
